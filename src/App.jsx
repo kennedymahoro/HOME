@@ -1,5 +1,5 @@
-import Logo from "./Assets/Logo-n.png";
-import schoolOfAthens from "./Assets/school-of-athens.jpg";
+import Logo from "./Assets/square-Logo-n.png";
+//import schoolOfAthens from "./Assets/school-of-athens.jpg";
 import "./App.css";
 
 function App() {
