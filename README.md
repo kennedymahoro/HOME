@@ -11,3 +11,7 @@ Font- :Poppins
 figma
 
 - https://www.figma.com/file/KkxSwbvCWPus6OYpK35684/site?node-id=1%3A2
+
+### struggling with:
+
+- Fixing the image while placeing the img in the right place.
