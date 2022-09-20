@@ -14,4 +14,4 @@ figma
 
 ### struggling with:
 
-- Fixing the image while placeing the img in the right place.
+- Struggling with logo sizing and positioning.
