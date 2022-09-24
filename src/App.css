@@ -15,8 +15,8 @@ main {
   background-repeat: no-repeat;
   width: 150vw;
   height: 150vh;
-  right: -300px;
-  top: -85px;
+  right: -330px;
+  top: -155px;
   position: fixed;
   z-index: -50000;
 }
@@ -32,8 +32,28 @@ img {
 }
 .Name {
   margin-left: 30px;
-  font-style: italic;
   font-size: 30px;
-  font-weight: bolder;
   /*color: white;*/
+}
+.myName {
+  /*background-color: blue;*/
+  font-weight: bolder;
+  width: 550px;
+}
+.myTitle {
+  /*background-color: red;*/
+  font-style: italic;
+  padding-left: 124px;
+  width: 550px;
+}
+
+.buttons {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 185px);
+  grid-column-gap: 20px;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
