@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <main>
         <div className="bg-img"></div>
+        <div className="bg-dim"></div>
         <div className="Name">
           <h1 className="myName">Kennedy Mahoro</h1>
           <h3 className="myTitle">A Frontend Developer.</h3>
@@ -19,6 +20,8 @@ function App() {
           <Button name="About" color="yellow" />
           <Button name="Projects" color="purple" />
         </div>
+        <div className="box1"></div>
+        <div className="box2"></div>
       </main>
     </div>
   );
