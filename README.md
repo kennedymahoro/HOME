@@ -12,6 +12,9 @@ figma
 
 - https://www.figma.com/file/KkxSwbvCWPus6OYpK35684/site?node-id=1%3A2
 
-### struggling with:
+- Typescript works
+- Tailwind works
+- React works
 
-- Struggling with logo sizing and positioning.
+> Now it is just time for me to code and start getting things done.
+> I have fanilized the new hero page. Much better than the previous one.
