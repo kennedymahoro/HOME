@@ -1,4 +1,4 @@
-const Name = () => {
+const Name = (props: {h1: string, div:string}) => {
     let int = 0;
     const FirstNameStr = "KENNEDY";
     const SecondNameStr = "MAHORO";
@@ -7,9 +7,9 @@ const Name = () => {
 
 
     return (
-        <div>
-            <h1 className="font-haruno text-black">{FirstNameArray}</h1>
-            <h1 className="font-haruno text-black">{SecondNameArray}</h1>
+        <div className={props.div}>
+            <h1 className={props.h1}>{FirstNameArray}</h1>
+            <h1 className={props.h1}>{SecondNameArray}</h1>
         </div>
     )
 }
