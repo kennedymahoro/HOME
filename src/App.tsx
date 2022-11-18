@@ -12,7 +12,7 @@ const App = () => {
         src={Logo}
         placeholder="logo"
       />
-      <div className="w-30 h-full absolute flex space-x-4 top-0 left-24 z-30 fixed">
+      <div className="w-30 h-full flex space-x-4 top-0 left-24 z-30 fixed">
         <div className="bg-yellow-400 w-10 h-full z-0 "></div>
         <div className="bg-blue-500 w-10 h-full z-0  "></div>
       </div>
