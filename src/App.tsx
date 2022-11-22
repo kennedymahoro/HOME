@@ -9,9 +9,10 @@ const App = () => {
         div="inline-block absolute z-40 left-64 top-24 "
       />
       <Title
-        div="bg-black absolute right-64 bottom-24"
-        h2="text-black  dark:text-white"
+        div=" absolute right-64 bottom-44"
+        h2="text-5xl text-black  dark:text-white"
       />
+
       <img
         className="w-20 h-24 absolute right-4 top-4 z-50"
         src={Logo}
