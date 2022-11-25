@@ -1,5 +1,6 @@
 import Name from "./Components/Name";
 import Title from "./Components/Title";
+import Links from "./Components/Links";
 import Logo from "./assets/Logo.png";
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         div=" absolute right-64 bottom-44"
         h2="text-5xl text-black  dark:text-white"
       />
+      <Links div="" />
 
       <img
         className="w-20 h-24 absolute right-4 top-4 z-50"
