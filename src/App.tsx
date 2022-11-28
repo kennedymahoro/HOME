@@ -2,6 +2,7 @@ import Name from "./Components/Name";
 import Title from "./Components/Title";
 import Links from "./Components/Links";
 import Logo from "./assets/Logo.png";
+import Brands from "./Components/Brands";
 const App = () => {
   return (
     <div className="bg-white dark:bg-black w-screen h-screen">
@@ -27,6 +28,10 @@ const App = () => {
         <div className="bg-yellow-400 w-10 h-full z-0 "></div>
         <div className="bg-blue-500 w-10 h-full z-0  "></div>
       </div>
+      <Brands
+        div=" fixed left-10 bottom-10 flex flex-col "
+        img="w-10 h-10 my-2"
+      />
     </div>
   );
 };
