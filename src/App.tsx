@@ -10,10 +10,13 @@ const App = () => {
         div="inline-block absolute z-40 left-64 top-24 "
       />
       <Title
-        div=" absolute right-64 bottom-44"
+        div=" absolute right-72 bottom-44"
         h2="text-5xl text-black  dark:text-white"
       />
-      <Links div="" />
+      <Links
+        div="absolute right-60 bottom-24"
+        links="m-3 px-4 py-1 text-4xl text-slate-700 dark:text-slate-200"
+      />
 
       <img
         className="w-20 h-24 absolute right-4 top-4 z-50"
