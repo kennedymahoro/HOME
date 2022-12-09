@@ -1,16 +1,16 @@
 const Links = (props: { div: string; links: string }) => {
   return (
     <div className={props.div}>
-      <a className={` ${props.links} bg-yellow-400`} href="#Projects">
+      <a className={` ${props.links}`} href="#Projects">
         Projects
       </a>
-      <a className={` ${props.links} bg-blue-500`} href="#Contact">
+      <a className={` ${props.links} `} href="#Contact">
         Contact
       </a>
-      <a className={` ${props.links} bg-yellow-400`} href="#About">
+      <a className={` ${props.links} `} href="#About">
         About
       </a>
-      <a className={` ${props.links} bg-yellow-400`} href="#Blog">
+      <a className={` ${props.links} `} href="#Blog">
         Blog
       </a>
     </div>
