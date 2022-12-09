@@ -3,15 +3,30 @@ import Title from "./Components/Title";
 import Links from "./Components/Links";
 import Brands from "./Components/Brands";
 import Logo from "./assets/Logo.png";
-import White_bg from "./assets/White-bg.jpg";
+import White_bg from "./assets/White-bg.png";
 import Black_bg from "./assets/Black-bg.png";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const App = () => {
-  const [Dark_Mode, setDark_Mode] = useState(true);
-  const Color_of_Bg = Dark_Mode ? Black_bg : White_bg;
-
+  const [mode, setMode] = useState<"light" | "dark" | undefined>(
+    window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light"
+  );
+  const Color_of_Bg = mode == "dark" ? Black_bg : White_bg;
+  useEffect(() => {
+    const modeMe = (e: any) => {
+      setMode(e.matches ? "dark" : "light");
+    };
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", modeMe);
+    return window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .removeListener(modeMe);
+  }, []);
   return (
     <div className="bg-white dark:bg-black w-screen h-screen">
       <Name
